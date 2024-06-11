@@ -1,0 +1,68 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffa602;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 500px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            padding-top: 10px;
+            border: 2px solid black;
+        }
+        .container h2 {
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        .form-actions {
+            display: flex;
+            justify-content: space-between;
+        }
+        .form-actions button {
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .form-actions .btn-clear {
+            background-color: #d9534f;
+            color: white;
+        }
+        .form-actions .btn-submit {
+            background-color: #5cb85c;
+            color: white;
+        }
+
+/*Classe para os radio button*/
+
+.form-radio input{
+    width: auto;
+}
+.form-radio label{
+    display: inline;
+    padding-left: 0;
+}
+
+#outro_genero{
+    height: 10px;
+    display: none;
+}
